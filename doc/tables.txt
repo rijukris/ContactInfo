@@ -1,0 +1,19 @@
+https://downloads.mariadb.org/mariadb/10.4.11/
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '....';
+FLUSH privileges;
+
+CREATE DATABASE ContactInfo;
+use ContactInfo;
+
+CONTACT table
+-------------
+mobile BIGINT // primary key
+first_name VARCHAR(32)
+last_name VARCHAR(32)
+address VARCHAR(64)
+city VARCHAR(32)
+state VARCHAR(32)
+zip INT
+
+CREATE TABLE CONTACT (mobile BIGINT, first_name VARCHAR(32), last_name VARCHAR(32), address VARCHAR(64), city VARCHAR(32), state VARCHAR(32), zip INT, PRIMARY KEY(mobile));

@@ -1,0 +1,10 @@
+GET /
+GET /addContactForm
+GET /modifyMobileForm
+GET /modifyContactForm?mobile="..."
+GET /deleteMobileForm
+GET /deleteContactForm?mobile="..."
+GET /display
+POST /addContact
+PUT /modifyContact
+DELETE /deleteContact
