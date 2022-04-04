@@ -1,4 +1,4 @@
-# ContactInfo
+ContactInfo
 ==============
 
 Collect, store, modify, delete, display (QRcode) and browse Contact information using JQuery, Node.js and MariaDB database.
